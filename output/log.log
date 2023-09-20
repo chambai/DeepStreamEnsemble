@@ -1,0 +1,1184 @@
+logs will be written hereINFO:root:2023-09-20 17:26:37.596814 Data classes to be used: [0 5]
+INFO:root:2023-09-20 17:26:37.848811 Mapping classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 5]
+INFO:root:2023-09-20 17:26:37.868812 Mapped classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 1]
+INFO:root:2023-09-20 17:26:37.868812 Mapping classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 5]
+INFO:root:2023-09-20 17:26:37.872811 Mapped classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 1]
+INFO:root:2023-09-20 17:26:37.872811 Loading DNN Model...
+INFO:root:2023-09-20 17:26:37.872811 Loading DNN model input/models\vgg16_mnistfashion_05.plt...
+INFO:root:2023-09-20 17:26:38.311811 input/models\vgg16_mnistfashion_05.plt DNN model trained 
+INFO:root:2023-09-20 17:26:39.461835 ---------- start of modules_adapt.dseadapt setup for activaton analysis with dnn----------
+INFO:root:2023-09-20 17:29:28.453360 block 0 ensemble training accuracy: 0.697
+INFO:root:2023-09-20 17:29:28.663360 block 1 ensemble training accuracy: 0.854
+INFO:root:2023-09-20 17:29:29.033432 block 2 ensemble training accuracy: 0.993
+INFO:root:2023-09-20 17:29:29.543419 block 3 ensemble training accuracy: 0.999
+INFO:root:2023-09-20 17:29:29.794422 block 4 ensemble training accuracy: 0.999
+INFO:root:2023-09-20 17:29:30.004419 block 5 ensemble training accuracy: 0.998
+INFO:root:2023-09-20 17:30:49.773920 run_adapt_thread thread starting...
+INFO:root:2023-09-20 17:30:49.774920 run_adapt_thread thread started...
+INFO:root:2023-09-20 17:30:50.163920 ----------- end of modules_adapt.dseadapt setup for activaton analysis with dnn----------
+
+INFO:root:2023-09-20 17:30:50.506920 Data classes to be used: [0 5]
+INFO:root:2023-09-20 17:30:50.749920 Mapping classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 5]
+INFO:root:2023-09-20 17:30:50.769920 Mapped classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 1]
+INFO:root:2023-09-20 17:30:50.769920 Mapping classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 5]
+INFO:root:2023-09-20 17:30:50.772920 Mapped classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 1]
+INFO:root:2023-09-20 17:30:51.034920 Data classes to be used: [0 5]
+INFO:root:2023-09-20 17:30:51.188920 Mapping classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 5]
+INFO:root:2023-09-20 17:30:51.207920 Mapped classes: length of x data: 12000. Length of y data: 12000. Y data values: [0 1]
+INFO:root:2023-09-20 17:30:51.208920 Mapping classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 5]
+INFO:root:2023-09-20 17:30:51.211920 Mapped classes: length of x data: 2000. Length of y data: 2000. Y data values: [0 1]
+INFO:root:2023-09-20 17:30:52.172920 NumUnseenInstances=-1
+INFO:root:2023-09-20 17:30:52.236920 DriftDisplay=NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+INFO:root:2023-09-20 17:30:52.252920 
+---------- start of data input stream ----------
+INFO:root:2023-09-20 17:30:52.258921 batch 1
+INFO:root:2023-09-20 17:30:55.472133 Start of instance processing, 100
+INFO:root:2023-09-20 17:30:55.573133 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:30:55.597133 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:numba.core.transforms:finding looplift candidates
+INFO:root:2023-09-20 17:30:57.795133 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:30:57.833133 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:30:57.872133 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:30:57.901133 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:30:57.934119 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:30:57.964120 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:30:57.990120 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:30:58.016121 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:30:58.036120 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:30:58.058120 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:30:58.080120 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:30:58.102120 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:30:58.125120 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:30:58.146119 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:30:58.166119 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:30:58.183120 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:30:58.200120 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:30:58.217120 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:30:58.234120 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:30:58.251120 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:30:58.268120 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:30:58.285119 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:30:58.301123 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:30:58.317120 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:30:58.333120 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:30:58.348121 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:30:58.361121 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:30:58.372120 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:30:58.383121 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:30:58.393121 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:30:58.410146 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:30:58.421147 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:30:58.431147 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:30:58.442147 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:30:58.452147 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:30:58.463147 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:numba.core.transforms:finding looplift candidates
+INFO:numba.core.transforms:finding looplift candidates
+INFO:root:2023-09-20 17:31:04.185690 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:04.286763 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:04.288763 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:06.207762 batch 2
+INFO:root:2023-09-20 17:31:06.219763 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:06.229762 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:06.257762 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:06.280762 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:06.304763 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:06.328763 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:06.343762 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:06.361762 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:06.379763 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:06.398763 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:06.416762 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:06.429763 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:06.443763 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:06.458763 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:06.472763 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:06.487762 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:06.502762 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:06.516762 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:06.528762 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:06.540763 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:06.552763 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:06.564763 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:06.577763 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:06.589763 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:06.601763 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:06.612763 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:06.623763 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:06.633762 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:06.644763 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:06.654762 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:06.665762 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:06.676763 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:06.686762 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:06.703762 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:06.714762 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:06.724762 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:06.735763 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:06.745762 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:06.756763 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:06.881762 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:06.892764 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:06.893763 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:08.676181 batch 3
+INFO:root:2023-09-20 17:31:08.697183 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:08.717185 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:08.754183 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:08.787183 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:08.821181 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:08.855183 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:08.879183 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:08.907184 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:08.939170 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:08.966170 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:08.991170 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:09.010171 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:09.032171 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:09.053170 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:09.075170 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:09.096170 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:09.117171 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:09.139170 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:09.157171 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:09.174171 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:09.191170 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:09.207171 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:09.224199 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:09.240198 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:09.256199 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:09.271198 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:09.286198 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:09.301198 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:09.316199 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:09.331198 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:09.346199 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:09.358198 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:09.369198 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:09.385198 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:09.396200 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:09.406198 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:09.417199 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:09.427198 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:09.438199 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:09.564199 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:09.574198 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:09.576198 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:11.347241 batch 4
+INFO:root:2023-09-20 17:31:11.367241 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:11.386242 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:11.421240 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:11.453240 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:11.484240 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:11.515241 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:11.538241 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:11.564240 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:11.588240 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:11.612241 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:11.636241 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:11.655241 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:11.676241 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:11.696270 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:11.717316 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:11.737316 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:11.756316 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:11.772315 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:11.784316 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:11.797316 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:11.809316 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:11.822316 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:11.835316 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:11.848316 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:11.861316 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:11.872316 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:11.884316 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:11.895316 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:11.906316 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:11.918316 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:11.930317 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:11.943320 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:11.954315 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:11.970316 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:11.981317 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:11.992316 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:12.003316 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:12.013316 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:12.024316 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:12.149316 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:12.159316 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:12.161316 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:13.940387 batch 5
+INFO:root:2023-09-20 17:31:13.960388 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:13.978388 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:14.014387 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:14.045388 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:14.077388 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:14.108387 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:14.131388 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:14.156388 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:14.181387 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:14.205388 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:14.229387 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:14.247460 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:14.267460 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:14.287460 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:14.307460 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:14.327460 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:14.348460 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:14.363460 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:14.375460 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:14.388460 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:14.401460 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:14.414460 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:14.427460 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:14.439460 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:14.452460 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:14.464460 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:14.475460 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:14.486460 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:14.497460 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:14.509460 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:14.520458 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:14.531460 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:14.542460 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:14.558460 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:14.569460 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:14.580460 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:14.590459 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:14.601460 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:14.611459 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:14.736460 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:14.747460 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:14.748460 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:16.548531 TRUE_CLASS:    00101100101001101001011100111011101111011100000111111100000110111101101001111000100111111001111001000110010101001111101011010110110101111001011011110000000000110011101000011100111100110110101010100100001001011010000000101010110000011100111010001110110011000111000011011101011001000100000011100100111001010001101001100101010101000010010110111010010001010001100000111101111110011110010011001110101000101100110100100011110100000010100101010001100101111010101001011011110010100111011001101101000110011010
+INFO:root:2023-09-20 17:31:16.548531 DISCREPANCIES: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+INFO:root:2023-09-20 17:31:16.550531 ----------- end of data input stream ----------
+
+INFO:root:2023-09-20 17:31:16.550531 beforeAcc=1.0
+INFO:root:2023-09-20 17:31:16.550531 
+---------- start of data input stream ----------
+INFO:root:2023-09-20 17:31:16.554531 batch 1
+INFO:root:2023-09-20 17:31:16.574531 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:16.593531 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:16.629531 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:16.661531 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:16.693531 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:16.725531 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:16.748530 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:16.773531 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:16.798531 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:16.822531 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:16.847533 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:16.866531 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:16.887531 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:16.908531 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:16.930534 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:16.951532 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:16.970531 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:16.989530 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:17.005532 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:17.022531 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:17.038532 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:17.054531 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:17.071531 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:17.087532 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:17.103531 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:17.118531 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:17.133530 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:17.151601 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:17.162601 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:17.173601 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:17.183600 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:17.194601 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:17.205600 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:17.221600 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:17.232601 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:17.242601 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:17.253601 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:17.263600 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:17.274601 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:17.400601 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:17.410600 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:17.412600 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:18.995673 window_dnn_acc: 0.5, train_acc: 0
+INFO:root:2023-09-20 17:31:18.996673 adapt set to true
+INFO:root:2023-09-20 17:31:19.017674 number of adaption activations: 200
+INFO:root:2023-09-20 17:31:20.607474 More samples on classes: [0 1]
+INFO:root:2023-09-20 17:31:20.610473 AdaptBlockIndexes=[3 1 2]
+INFO:root:2023-09-20 17:31:20.611477 AdaptationEpochs=3
+INFO:root:2023-09-20 17:31:28.686098 DnnAdaptionTimeNoEns=9.667425
+INFO:root:2023-09-20 17:31:34.755965 Models updated
+INFO:root:2023-09-20 17:31:34.755965 DnnAdaptionTime=15.737292
+INFO:root:2023-09-20 17:31:34.930004 batch 2
+INFO:root:2023-09-20 17:31:35.133005 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:35.168003 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:35.196006 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:35.220004 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:35.244005 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:35.267005 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:35.282004 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:35.304009 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:35.324004 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:35.343004 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:35.361004 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:35.373005 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:35.388004 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:35.402005 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:35.417004 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:35.431003 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:35.446004 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:35.460004 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:35.472005 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:35.484005 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:35.496004 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:35.508005 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:35.520005 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:35.532004 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:35.545004 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:35.556004 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:35.566003 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:35.577003 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:35.588004 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:35.598003 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:35.609004 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:35.620004 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:35.630003 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:35.646006 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:35.657003 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:35.668007 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:35.678003 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:35.689007 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:35.699003 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:35.824004 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:35.835004 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:35.837006 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:37.415004 window_dnn_acc: 0.92, train_acc: 0
+INFO:root:2023-09-20 17:31:37.416005 adapt set to true
+INFO:root:2023-09-20 17:31:37.432004 batch 3
+INFO:root:2023-09-20 17:31:37.444004 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:37.455007 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:37.482004 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:37.506004 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:37.530004 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:37.553005 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:37.572004 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:37.594004 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:37.617004 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:37.639004 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:37.661004 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:37.678004 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:37.696005 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:37.715005 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:37.733003 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:37.750004 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:37.764004 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:37.778004 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:37.790005 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:37.802004 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:37.814004 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:37.827004 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:37.839005 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:37.851005 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:37.863004 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:37.874004 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:37.885004 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:37.895004 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:37.906005 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:37.917005 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:37.927004 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:37.938005 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:37.948005 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:37.964004 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:37.975005 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:37.986005 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:37.996004 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:38.007004 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:38.017004 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:38.141004 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:38.152006 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:38.153008 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:38.492043 number of adaption activations: 300
+INFO:root:2023-09-20 17:31:40.402090 window_dnn_acc: 0.88, train_acc: 0
+INFO:root:2023-09-20 17:31:40.403093 adapt set to true
+INFO:root:2023-09-20 17:31:40.426089 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:31:41.158090 More samples on classes: [0 1]
+INFO:root:2023-09-20 17:31:41.161088 AdaptBlockIndexes=[3 1 2]
+INFO:root:2023-09-20 17:31:41.162089 AdaptationEpochs=3
+INFO:root:2023-09-20 17:31:42.429119 batch 4
+INFO:root:2023-09-20 17:31:42.437115 Start of instance processing, 33
+INFO:root:2023-09-20 17:31:42.443114 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:42.458115 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:42.468114 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:42.479114 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:42.489114 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:42.497118 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:42.505117 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:42.514114 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:42.523114 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:42.531114 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:42.538115 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:42.545115 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:42.553117 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:42.560118 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:42.567116 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:42.574115 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:42.582114 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:42.588115 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:42.594114 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:42.600114 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:42.606114 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:42.612113 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:42.619115 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:42.625114 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:42.630114 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:42.636115 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:42.642115 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:42.647113 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:42.653114 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:42.658114 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:42.664113 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:42.669117 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:42.677115 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:42.683114 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:42.688114 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:42.694115 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:42.699113 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:42.705114 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:42.748115 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:42.754114 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:42.754114 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:43.305114 window_dnn_acc: 0.9393939393939394, train_acc: 0
+INFO:root:2023-09-20 17:31:43.306115 adapt set to true
+INFO:root:2023-09-20 17:31:43.324115 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:31:45.335721 TRUE_CLASS:    111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121
+INFO:root:2023-09-20 17:31:45.336723 DISCREPANCIES: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+INFO:root:2023-09-20 17:31:45.336723 ----------- end of data input stream ----------
+
+INFO:root:2023-09-20 17:31:45.337722 duringAcc=0.7837837837837838
+INFO:root:2023-09-20 17:31:45.337722 
+---------- start of data input stream ----------
+INFO:root:2023-09-20 17:31:45.353721 batch 1
+INFO:root:2023-09-20 17:31:45.371721 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:45.387722 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:45.419721 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:45.449721 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:45.479721 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:45.508721 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:45.529721 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:45.553721 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:45.576720 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:45.599721 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:45.622723 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:45.639721 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:45.660721 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:45.681721 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:45.700720 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:45.719722 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:45.738721 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:45.753721 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:45.765721 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:45.777721 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:45.789721 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:45.801722 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:45.813721 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:45.825722 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:45.837722 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:45.849721 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:45.860721 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:45.870721 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:45.881723 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:45.892721 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:45.902721 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:45.913721 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:45.924721 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:45.940721 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:45.951721 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:45.961721 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:45.972721 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:45.982721 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:45.993721 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:46.119721 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:46.129721 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:46.130722 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:47.732733 window_dnn_acc: 0.94, train_acc: 0
+INFO:root:2023-09-20 17:31:47.733732 adapt set to true
+INFO:root:2023-09-20 17:31:47.750733 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:31:49.404788 DnnAdaptionTimeNoEns=10.880748
+INFO:root:2023-09-20 17:31:49.763715 batch 2
+INFO:root:2023-09-20 17:31:49.803715 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:49.842715 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:49.898715 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:49.949715 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:49.986715 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:50.022715 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:50.049716 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:50.080715 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:50.111715 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:50.142716 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:50.167716 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:50.187716 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:50.209715 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:50.231717 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:50.252716 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:50.273715 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:50.295716 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:50.317716 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:50.336716 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:50.354716 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:50.371715 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:50.388716 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:50.405714 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:50.421714 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:50.438716 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:50.453714 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:50.468715 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:50.484716 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:50.498715 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:50.514715 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:50.529715 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:50.542703 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:50.552703 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:50.569703 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:50.580703 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:50.591703 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:50.601703 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:50.612703 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:50.622703 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:50.748703 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:50.759703 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:50.760703 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:52.364715 window_dnn_acc: 0.89, train_acc: 0
+INFO:root:2023-09-20 17:31:52.366716 adapt set to true
+INFO:root:2023-09-20 17:31:52.383715 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:31:54.398060 batch 3
+INFO:root:2023-09-20 17:31:54.436060 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:54.473059 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:54.527060 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:54.569048 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:54.610047 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:54.651049 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:54.683049 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:54.718047 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:54.750047 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:54.776047 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:54.802047 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:54.823047 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:54.846047 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:54.868047 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:54.890047 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:54.913047 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:54.936047 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:54.955047 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:54.972047 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:54.989047 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:55.006047 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:55.023047 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:55.040047 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:55.057047 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:55.075048 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:55.090047 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:55.106047 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:55.122047 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:55.137047 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:55.148047 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:55.159047 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:55.171047 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:55.183047 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:55.200047 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:55.211047 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:55.221047 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:55.231047 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:55.242047 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:55.252047 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:55.377047 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:55.388047 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:55.389047 Normalization (norm) applied
+INFO:root:2023-09-20 17:31:55.510047 Models updated
+INFO:root:2023-09-20 17:31:55.556048 DnnAdaptionTime=17.032008
+INFO:root:2023-09-20 17:31:57.013060 window_dnn_acc: 0.86, train_acc: 0
+INFO:root:2023-09-20 17:31:57.014060 adapt set to true
+INFO:root:2023-09-20 17:31:57.034061 batch 4
+INFO:root:2023-09-20 17:31:57.046060 Start of instance processing, 100
+INFO:root:2023-09-20 17:31:57.057060 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:31:57.085060 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:31:57.108061 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:31:57.132060 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:31:57.165061 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:31:57.186060 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:31:57.208060 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:31:57.230060 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:31:57.253060 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:31:57.275060 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:31:57.293059 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:31:57.311060 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:31:57.330060 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:31:57.345061 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:31:57.360060 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:31:57.374060 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:31:57.389060 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:31:57.400060 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:31:57.413062 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:31:57.425061 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:31:57.437060 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:31:57.449061 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:31:57.461062 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:31:57.474060 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:31:57.485060 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:31:57.495060 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:31:57.506060 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:31:57.516060 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:31:57.527060 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:31:57.538060 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:31:57.549060 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:31:57.559060 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:31:57.575060 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:31:57.586060 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:31:57.597060 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:31:57.607059 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:31:57.618060 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:31:57.629060 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:31:57.655061 number of adaption activations: 500
+INFO:root:2023-09-20 17:31:58.288060 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:31:58.299060 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:31:58.300061 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:00.989047 window_dnn_acc: 0.98, train_acc: 0
+INFO:root:2023-09-20 17:32:00.994048 adapt set to true
+INFO:root:2023-09-20 17:32:02.507060 More samples on classes: [0 1 2]
+INFO:root:2023-09-20 17:32:02.511058 AdaptBlockIndexes=[3 1 2]
+INFO:root:2023-09-20 17:32:02.520062 AdaptationEpochs=3
+INFO:root:2023-09-20 17:32:02.536061 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:04.542047 batch 5
+INFO:root:2023-09-20 17:32:04.562047 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:04.573047 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:04.602047 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:04.627049 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:04.651047 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:04.675048 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:04.691047 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:04.709047 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:04.728047 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:04.746048 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:04.765049 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:04.778048 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:04.792047 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:04.807048 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:04.821048 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:04.836047 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:04.851047 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:04.866047 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:04.878049 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:04.890048 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:04.903048 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:04.915048 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:04.928048 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:04.941048 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:04.953048 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:04.964047 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:04.975048 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:04.986047 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:04.997048 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:05.008047 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:05.019048 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:05.030047 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:05.041047 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:05.057047 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:05.068049 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:05.079048 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:05.089047 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:05.100047 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:05.111047 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:05.250047 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:05.261047 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:05.263047 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:06.945047 window_dnn_acc: 0.92, train_acc: 0
+INFO:root:2023-09-20 17:32:06.946047 adapt set to true
+INFO:root:2023-09-20 17:32:06.968047 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:08.976360 batch 6
+INFO:root:2023-09-20 17:32:09.026377 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:09.049377 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:09.089377 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:09.126377 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:09.158377 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:09.190377 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:09.213377 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:09.239377 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:09.265377 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:09.292378 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:09.318377 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:09.339376 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:09.359376 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:09.380377 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:09.400377 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:09.420377 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:09.440377 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:09.460377 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:09.477377 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:09.495378 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:09.513378 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:09.531378 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:09.543378 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:09.555377 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:09.568378 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:09.579377 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:09.590377 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:09.601377 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:09.611380 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:09.622377 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:09.633377 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:09.643377 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:09.654377 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:09.670377 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:09.681377 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:09.692378 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:09.702377 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:09.713377 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:09.723377 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:09.850377 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:09.860377 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:09.861377 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:10.734377 DnnAdaptionTimeNoEns=13.078316
+INFO:root:2023-09-20 17:32:11.503377 window_dnn_acc: 0.89, train_acc: 0
+INFO:root:2023-09-20 17:32:11.504377 adapt set to true
+INFO:root:2023-09-20 17:32:11.526378 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:13.526889 batch 7
+INFO:root:2023-09-20 17:32:13.569906 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:13.611906 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:13.670906 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:13.725906 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:13.750906 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:13.780906 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:13.795906 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:13.813906 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:13.831907 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:13.850906 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:13.868906 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:13.880906 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:13.895906 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:13.909905 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:13.924906 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:13.938906 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:13.952906 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:13.967906 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:13.978906 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:13.991907 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:14.003907 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:14.015907 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:14.027906 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:14.039906 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:14.052907 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:14.063906 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:14.073906 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:14.084906 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:14.094906 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:14.105906 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:14.115906 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:14.126906 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:14.136906 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:14.152906 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:14.163906 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:14.174906 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:14.184906 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:14.195906 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:14.205906 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:14.331906 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:14.341906 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:14.342908 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:15.991906 window_dnn_acc: 0.93, train_acc: 0
+INFO:root:2023-09-20 17:32:15.992906 adapt set to true
+INFO:root:2023-09-20 17:32:16.015906 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:16.860566 Models updated
+INFO:root:2023-09-20 17:32:16.861566 DnnAdaptionTime=19.205505
+INFO:root:2023-09-20 17:32:18.018824 batch 8
+INFO:root:2023-09-20 17:32:18.057824 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:18.094824 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:18.148824 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:18.194824 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:18.241824 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:18.287812 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:18.325811 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:18.352811 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:18.379811 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:18.407812 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:18.434812 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:18.456812 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:18.480812 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:18.504811 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:18.528811 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:18.548812 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:18.568812 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:18.589811 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:18.606813 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:18.626813 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:18.646812 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:18.665812 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:18.683812 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:18.701812 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:18.719813 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:18.733813 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:18.744812 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:18.755812 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:18.765812 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:18.776811 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:18.787812 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:18.797814 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:18.808812 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:18.824812 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:18.835811 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:18.846812 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:18.856812 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:18.867812 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:18.878812 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:19.002811 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:19.013812 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:19.014812 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:20.653815 window_dnn_acc: 0.9, train_acc: 0
+INFO:root:2023-09-20 17:32:20.654813 adapt set to true
+INFO:root:2023-09-20 17:32:20.678814 batch 9
+INFO:root:2023-09-20 17:32:20.690812 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:20.700812 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:20.728812 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:20.757812 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:20.786811 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:20.815811 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:20.835814 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:20.859812 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:20.882811 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:20.906812 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:20.918814 number of adaption activations: 700
+INFO:root:2023-09-20 17:32:21.118814 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:21.311816 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:21.344816 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:21.463812 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:21.681815 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:21.700814 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:21.719812 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:21.737813 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:21.753815 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:21.769813 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:21.786814 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:21.802815 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:21.819814 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:21.835814 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:21.852814 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:21.867813 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:21.882813 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:21.896813 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:21.911814 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:21.926814 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:21.937814 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:21.948812 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:21.958814 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:21.975814 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:21.986813 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:21.996813 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:22.042814 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:22.089814 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:22.101812 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:22.272812 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:22.284812 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:22.286812 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:27.747175 window_dnn_acc: 0.89, train_acc: 0
+INFO:root:2023-09-20 17:32:27.748185 adapt set to true
+INFO:root:2023-09-20 17:32:27.748185 More samples on classes: [0 1 2]
+INFO:root:2023-09-20 17:32:27.752186 AdaptBlockIndexes=[3 1 2]
+INFO:root:2023-09-20 17:32:27.763186 AdaptationEpochs=3
+INFO:root:2023-09-20 17:32:27.780176 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:29.790174 batch 10
+INFO:root:2023-09-20 17:32:29.811173 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:29.822176 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:29.851174 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:29.875174 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:29.900174 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:29.923174 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:29.938173 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:29.956174 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:29.975173 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:29.993174 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:30.011174 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:30.024174 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:30.038173 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:30.053174 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:30.068174 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:30.082174 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:30.097174 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:30.112173 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:30.124174 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:30.136174 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:30.149174 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:30.161174 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:30.174174 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:30.186174 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:30.199174 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:30.210174 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:30.221174 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:30.232173 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:30.243174 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:30.254174 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:30.265174 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:30.276174 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:30.286173 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:30.302174 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:30.313173 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:30.324173 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:30.335174 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:30.346174 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:30.356173 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:30.483174 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:30.494174 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:30.495174 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:32.255186 window_dnn_acc: 0.85, train_acc: 0
+INFO:root:2023-09-20 17:32:32.256186 adapt set to true
+INFO:root:2023-09-20 17:32:32.279186 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:34.286427 batch 11
+INFO:root:2023-09-20 17:32:34.310426 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:34.333430 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:34.373426 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:34.409426 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:34.446426 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:34.487426 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:34.514426 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:34.541426 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:34.566425 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:34.592426 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:34.617426 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:34.637427 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:34.659426 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:34.681426 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:34.703426 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:34.724427 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:34.744426 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:34.763426 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:34.779423 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:34.796427 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:34.813427 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:34.830427 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:34.847427 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:34.863426 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:34.880426 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:34.896426 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:34.911426 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:34.925426 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:34.936426 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:34.947426 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:34.958426 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:34.968426 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:34.979426 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:34.995426 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:35.006426 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:35.016426 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:35.027426 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:35.037426 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:35.048426 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:35.173427 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:35.184426 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:35.185427 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:35.994426 DnnAdaptionTimeNoEns=15.075612
+INFO:root:2023-09-20 17:32:36.861426 window_dnn_acc: 0.92, train_acc: 0
+INFO:root:2023-09-20 17:32:36.862426 adapt set to true
+INFO:root:2023-09-20 17:32:36.886426 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:38.893354 batch 12
+INFO:root:2023-09-20 17:32:38.936354 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:38.978355 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:39.037354 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:39.091354 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:39.136355 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:39.160354 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:39.175355 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:39.193354 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:39.211354 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:39.230354 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:39.248354 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:39.261354 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:39.275354 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:39.290354 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:39.307354 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:39.323354 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:39.337354 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:39.352354 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:39.363354 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:39.375354 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:39.387354 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:39.400354 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:39.412355 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:39.424355 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:39.436355 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:39.447354 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:39.458354 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:39.469354 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:39.479355 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:39.490354 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:39.500354 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:39.511354 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:39.521354 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:39.537354 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:39.548354 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:39.558354 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:39.569354 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:39.579354 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:39.589354 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:39.715354 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:39.726354 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:39.727355 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:41.409354 window_dnn_acc: 0.9, train_acc: 0
+INFO:root:2023-09-20 17:32:41.410354 adapt set to true
+INFO:root:2023-09-20 17:32:41.434355 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:42.135675 Models updated
+INFO:root:2023-09-20 17:32:42.135675 DnnAdaptionTime=21.216861
+INFO:root:2023-09-20 17:32:43.446215 batch 13
+INFO:root:2023-09-20 17:32:43.487214 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:43.526215 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:43.582214 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:43.635217 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:43.687215 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:43.733214 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:43.748214 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:43.767214 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:43.785214 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:43.803214 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:43.821214 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:43.834214 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:43.848214 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:43.863214 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:43.877214 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:43.892216 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:43.907216 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:43.921214 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:43.933214 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:43.945214 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:43.957214 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:43.969214 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:43.982214 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:43.994214 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:44.006214 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:44.017215 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:44.028214 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:44.038214 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:44.049214 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:44.059214 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:44.070214 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:44.081214 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:44.091214 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:44.107214 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:44.118214 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:44.128214 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:44.139214 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:44.149214 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:44.160215 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:44.294214 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:44.305214 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:44.306215 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:45.974226 window_dnn_acc: 0.95, train_acc: 0
+INFO:root:2023-09-20 17:32:45.975227 adapt set to true
+INFO:root:2023-09-20 17:32:45.999214 batch 14
+INFO:root:2023-09-20 17:32:46.019214 Start of instance processing, 100
+INFO:root:2023-09-20 17:32:46.037214 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:46.073214 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:46.105214 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:46.137214 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:46.170214 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:46.192214 number of adaption activations: 700
+INFO:root:2023-09-20 17:32:46.252214 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:46.441215 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:46.484214 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:46.777214 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:46.805215 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:46.828214 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:46.852215 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:46.876215 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:46.901214 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:46.924214 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:46.946215 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:46.968214 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:46.987215 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:47.006214 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:47.026214 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:47.045214 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:47.065214 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:47.084214 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:47.104214 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:47.194214 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:47.207215 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:47.219214 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:47.230214 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:47.241214 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:47.265215 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:47.279215 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:47.293214 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:47.314214 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:47.325214 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:47.336214 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:47.347215 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:47.359214 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:47.371214 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:49.584214 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:50.238214 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:50.487214 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:51.922490 More samples on classes: [0 1 2]
+INFO:root:2023-09-20 17:32:51.927489 AdaptBlockIndexes=[3 1 2]
+INFO:root:2023-09-20 17:32:51.928489 AdaptationEpochs=3
+INFO:root:2023-09-20 17:32:52.967477 window_dnn_acc: 0.93, train_acc: 0
+INFO:root:2023-09-20 17:32:52.967477 adapt set to true
+INFO:root:2023-09-20 17:32:52.993477 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:55.007477 batch 15
+INFO:root:2023-09-20 17:32:55.070477 Start of instance processing, 15
+INFO:root:2023-09-20 17:32:55.115477 Applying layer activation reduction: ['blockcbir'] for layer features.Sequential
+INFO:root:2023-09-20 17:32:55.128478 Applying layer activation reduction: ['blockcbir'] for layer features.0.Conv2d
+INFO:root:2023-09-20 17:32:55.135477 Applying layer activation reduction: ['blockcbir'] for layer features.1.ReLU
+INFO:root:2023-09-20 17:32:55.142477 Applying layer activation reduction: ['blockcbir'] for layer features.2.Conv2d
+INFO:root:2023-09-20 17:32:55.150478 Applying layer activation reduction: ['blockcbir'] for layer features.3.ReLU
+INFO:root:2023-09-20 17:32:55.156477 Applying layer activation reduction: ['blockcbir'] for layer features.4.MaxPool2d
+INFO:root:2023-09-20 17:32:55.162477 Applying layer activation reduction: ['blockcbir'] for layer features.5.Conv2d
+INFO:root:2023-09-20 17:32:55.168477 Applying layer activation reduction: ['blockcbir'] for layer features.6.ReLU
+INFO:root:2023-09-20 17:32:55.178477 Applying layer activation reduction: ['blockcbir'] for layer features.7.Conv2d
+INFO:root:2023-09-20 17:32:55.184477 Applying layer activation reduction: ['blockcbir'] for layer features.8.ReLU
+INFO:root:2023-09-20 17:32:55.189477 Applying layer activation reduction: ['blockcbir'] for layer features.9.MaxPool2d
+INFO:root:2023-09-20 17:32:55.195477 Applying layer activation reduction: ['blockcbir'] for layer features.10.Conv2d
+INFO:root:2023-09-20 17:32:55.200477 Applying layer activation reduction: ['blockcbir'] for layer features.11.ReLU
+INFO:root:2023-09-20 17:32:55.205477 Applying layer activation reduction: ['blockcbir'] for layer features.12.Conv2d
+INFO:root:2023-09-20 17:32:55.211477 Applying layer activation reduction: ['blockcbir'] for layer features.13.ReLU
+INFO:root:2023-09-20 17:32:55.216477 Applying layer activation reduction: ['blockcbir'] for layer features.14.Conv2d
+INFO:root:2023-09-20 17:32:55.222477 Applying layer activation reduction: ['blockcbir'] for layer features.15.ReLU
+INFO:root:2023-09-20 17:32:55.227477 Applying layer activation reduction: ['blockcbir'] for layer features.16.MaxPool2d
+INFO:root:2023-09-20 17:32:55.232477 Applying layer activation reduction: ['blockcbir'] for layer features.17.Conv2d
+INFO:root:2023-09-20 17:32:55.236477 Applying layer activation reduction: ['blockcbir'] for layer features.18.ReLU
+INFO:root:2023-09-20 17:32:55.241477 Applying layer activation reduction: ['blockcbir'] for layer features.19.Conv2d
+INFO:root:2023-09-20 17:32:55.246478 Applying layer activation reduction: ['blockcbir'] for layer features.20.ReLU
+INFO:root:2023-09-20 17:32:55.250477 Applying layer activation reduction: ['blockcbir'] for layer features.21.Conv2d
+INFO:root:2023-09-20 17:32:55.255477 Applying layer activation reduction: ['blockcbir'] for layer features.22.ReLU
+INFO:root:2023-09-20 17:32:55.259477 Applying layer activation reduction: ['blockcbir'] for layer features.23.MaxPool2d
+INFO:root:2023-09-20 17:32:55.264477 Applying layer activation reduction: ['blockcbir'] for layer features.24.Conv2d
+INFO:root:2023-09-20 17:32:55.268477 Applying layer activation reduction: ['blockcbir'] for layer features.25.ReLU
+INFO:root:2023-09-20 17:32:55.273477 Applying layer activation reduction: ['blockcbir'] for layer features.26.Conv2d
+INFO:root:2023-09-20 17:32:55.277477 Applying layer activation reduction: ['blockcbir'] for layer features.27.ReLU
+INFO:root:2023-09-20 17:32:55.282477 Applying layer activation reduction: ['blockcbir'] for layer features.28.Conv2d
+INFO:root:2023-09-20 17:32:55.286477 Applying layer activation reduction: ['blockcbir'] for layer features.29.ReLU
+INFO:root:2023-09-20 17:32:55.291477 Applying layer activation reduction: ['blockcbir'] for layer features.30.MaxPool2d
+INFO:root:2023-09-20 17:32:55.296477 Applying layer activation reduction: ['blockcbir'] for layer avgpool.AdaptiveAvgPool2d
+INFO:root:2023-09-20 17:32:55.301477 Applying layer activation reduction: ['blockcbir'] for layer classifier.Sequential
+INFO:root:2023-09-20 17:32:55.305477 Applying layer activation reduction: ['blockcbir'] for layer classifier.0.Linear
+INFO:root:2023-09-20 17:32:55.310477 Applying layer activation reduction: ['blockcbir'] for layer classifier.1.ReLU
+INFO:root:2023-09-20 17:32:55.314477 Applying layer activation reduction: ['blockcbir'] for layer classifier.2.Dropout
+INFO:root:2023-09-20 17:32:55.318477 Applying layer activation reduction: ['blockcbir'] for layer classifier.3.Linear
+INFO:root:2023-09-20 17:32:55.339477 Applying layer activation reduction: ['blockcbir'] for layer classifier.4.ReLU
+INFO:root:2023-09-20 17:32:55.343477 Applying layer activation reduction: ['blockcbir'] for layer classifier.5.Dropout
+INFO:root:2023-09-20 17:32:55.343477 Normalization (norm) applied
+INFO:root:2023-09-20 17:32:55.603477 window_dnn_acc: 0.9333333333333333, train_acc: 0
+INFO:root:2023-09-20 17:32:55.603477 adapt set to true
+INFO:root:2023-09-20 17:32:55.627477 AdaptationTimeDelay of 2s
+INFO:root:2023-09-20 17:32:57.629920 TRUE_CLASS:    11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111212111112112111112111211211111211211112112221111121122111211221111111112111212121122122121122121111111121211121112222121212111221112111211222112112112111121112211111112121122121212111121121111211111122122111121112121211212121112112111111211122222111111121121121221222212212112221212112122121221221211111222111222111111222121212112121222122112222212211222112221212222122221122221111221222121212211211111112122222112122111211212221122111122212222122111111122111211221122212112111112112211222222112221121112222122221112112222212222211212222111222221112121222221111121122221122211112212112211121122121111221211122221211212111221122112111211212122111211221121122111211212121212221211111221112112112122211111212221121112112211222111121122121112212212122112221211112121111121121121221122212112221211112111111111122222121122211122222211121212212221121222222212111222212222122222112111211222121222122212112111121111212122221222112112121121212121121122221111222211122221222121222122212111211211112122121222211212211212212111212222111112211212212121221211122121112112211211122221221222221121121211221121222212211122111211221122221111222222122122212111112211112121112222212112212111212121222111122211112111121222222211221111221221222211111121221221112221221111
+INFO:root:2023-09-20 17:32:57.629920 DISCREPANCIES: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+INFO:root:2023-09-20 17:32:57.632922 ----------- end of data input stream ----------
+
+INFO:root:2023-09-20 17:32:57.634922 afterAcc=0.9109540636042402
+INFO:root:2023-09-20 17:32:57.635922 TotalNumberOfUnseenInstances=2248
+INFO:root:2023-09-20 17:32:57.635922 DriftDetectionInstances=[]
+INFO:root:2023-09-20 17:32:57.635922 Train diff values: []
+INFO:root:2023-09-20 17:32:57.635922 Test diff values: [2.880952380952381, 0.21705982339882757, 0.1606653854079294, 0.08578199494702732, 0.051579103480104194, 0.3513437397158332, 0.34846208699786085, 0.25657988587731784, 0.07893489252514585, 0.14811157146330245, 0.11488428665998685, 0.11725805063015315, 0.0926874938088239, 0.08809373990251679, 0.08832338420971708, 0.0757297159838759, 0.07450716926218981, 0.06137483219246542, 0.06274394990442222, 0.06429285085252356, 0.05017700851650486, 0.043069506159009896, 0.03723145884312129, 0.005624075962866071]
+INFO:root:2023-09-20 17:32:57.635922 block sums=[1.08263081 1.08263081 1.08263081 1.08263081 0.87245044 0.3524947 ]
+INFO:root:2023-09-20 17:32:57.636922 block with max diff=[3 1 2]
+INFO:root:2023-09-20 17:32:57.636922 windows_adapt_applied=[6, 12, 16, 21]
+INFO:root:2023-09-20 17:32:57.637922 inst_adapt_applied=[600, 1200, 1600, 2100]
+INFO:root:2023-09-20 17:32:57.637922 Average inference time (and std dev) per instance (ms)=52.224 (38.493)
+INFO:root:2023-09-20 17:33:00.031826 DnnAdaptionTimeNoEns=13.839612
+INFO:root:2023-09-20 17:33:06.092288 Models updated
+INFO:root:2023-09-20 17:33:06.092288 DnnAdaptionTime=19.900074
+INFO:root:2023-09-20 17:33:07.101128 adaption thread ended
