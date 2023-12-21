@@ -5,6 +5,7 @@ import os
 import os.path, time
 import threading
 import numpy as np
+from sklearn import preprocessing
 
 paramDefFile = 'input/params/paramdef.txt'
 setupFile = None
@@ -179,13 +180,6 @@ def stringToBool(string):
 def getFileCreationTime(filename):
     return time.ctime(os.path.getctime(filename))
 
-# ----------------------------------------------------------------------------
-def hasSubClasses():
-    mapNewYValues = getParameter('MapNewYValues')
-    if len(mapNewYValues) == 0:
-        return False
-    else:
-        return True
 
 # ------------------------------------------------------------------------
 def chunks(l, n):
@@ -194,6 +188,94 @@ def chunks(l, n):
         # Create an index range for l of n items:
         yield l[i:i + n]
 
+# ------------------------------------------------------------------------
+def normalize(activations):
+    max_values = []
+    if len(activations.shape) == 1:
+        maxValue = np.amax(activations)
+        activations = activations / maxValue
+        max_values.append(maxValue)
+    else:
+        # list of activations
+        for n, a in enumerate(activations[0]):
+            maxValue = np.amax(a)
+            activations[0][n] = a / maxValue
+            max_values.append(maxValue)
+    return activations, max_values
+
+# ------------------------------------------------------------------------
+def normalizeFlatValues(flatActivations, isTrainingData, maxValue=None):
+    # divides each element by the max value of the training data
+
+    # flatActivations = np.vstack(flatActivations)
+    # for i in range(len(flatActivations)):
+    #    activationMatrix = np.vstack((activationMatrix,flatActivations[i]))
+
+    # util.printDebug(activationMatrix)
+    if isTrainingData:
+        # if len(flatActivations.shape) > 1:
+        if getParameter('DataDiscrepancy') == 'CD':
+            block_max_values = []
+            for col in range(flatActivations.shape[1]):
+                block = flatActivations[:, col]
+                if len(block.shape) == 1:
+                    bf = block.reshape((block.shape[0]))
+                    bf = np.array([b for b in bf], dtype=float)
+                else:
+                    bf = block
+                block_max = np.max(bf)
+                block_max_values.append(block_max)
+            maxValue = block_max_values
+        else:
+            maxValue = [np.amax(flatActivations)]
+
+        thisLogger.logDebug('Max Value: %s' % (maxValue))
+
+    dataNormalization = 'norm'
+    # dataNormalization = getParameter("DataNormalization")
+    if len(maxValue) == 1:
+        if dataNormalization == 'norm':
+            flatActivations = flatActivations / maxValue
+            # thisLogger.logInfo("Normalization (%s) applied" % (dataNormalization))
+        elif dataNormalization == 'std':
+            flatActivations = preprocessing.scale(flatActivations)
+            # thisLogger.logInfo("Standardization (%s) applied" % (dataNormalization))
+        elif dataNormalization == 'none':
+            thisLogger.logInfo("No data normalisation/standardization")
+        else:
+            thisLogger.logInfo("unhandled data normalization of %s" % (dataNormalization))
+    else:
+        for col in range(flatActivations.shape[1]):
+            flatActivations[:, col] = flatActivations[:, col] / maxValue[col]
+
+    # for i in range(len(flatActivations)):
+    #    flatActivations[i] = activationMatrix[:i]
+
+    # util.printDebug(activationMatrix)
+    # util.printDebug(flatActivations)
+
+    flatActivations = np.nan_to_num(flatActivations, copy=False)
+
+    return flatActivations, maxValue
+
+def getExperimentName():
+    dnn = getParameter('Dnn')
+    datasetName = getParameter('DatasetName')
+    classes = np.unique(getParameter('DataClasses'))
+    classesName = ''.join(map(str, classes))
+    num_classes = len(classes)
+
+    # make hashcode if there's too many classes
+    if num_classes > 10:
+        hash_classes = hash(tuple(classes))  # hash classes to get unique number otherwise name is too long
+        classesName = str(hash_classes)
+
+    # add postfix if sub if there's sub-classes incase there's a clash with previous super class names
+    if has_sub_classes():
+        classesName = classesName + '_sub'
+
+    exp_name = '%s_%s_%s' % (dnn, datasetName, classesName)
+    return exp_name
 
 def transformZeroIndexDataIntoClasses(y_data, classes):
     # changes y data that is from 0 to n into the classes
@@ -497,8 +579,8 @@ def mapClasses(x, y):
             y_out.append(y_dict[y_val])
         y_out = np.array(y_out)
 
-        thisLogger.logInfo('Mapped classes: length of x data: %s. Length of y data: %s. Y data values: %s' % (
-        len(x), len(y_out), np.unique(y_out)))
+        # thisLogger.logInfo('Mapped classes: length of x data: %s. Length of y data: %s. Y data values: %s' % (
+        # len(x), len(y_out), np.unique(y_out)))
     return x, y_out, y_unmapped
 
 
