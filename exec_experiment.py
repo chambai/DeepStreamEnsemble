@@ -70,20 +70,20 @@ if __name__ == '__main__':
           known_classes='0-2',
           unknown_classes='1-8',
           drift_pattern='temporal-abrupt',
-          deepstream_model_name='deepstreamensemble', #deepstreamos, adadeepstream
-          reduction='blockcbir',    # jdsiverge, dsdivergelast, dscbir, blockcbir
-          adaptation='dseadapt',     # dsadapt
+          deepstream_model_name='deepstreamensemble',
+          reduction='blockcbir',  
+          adaptation='dseadapt',
           data_discrepancy='CD',
              )
 
-    # DeepStreamEnsemble
-    exec.run(dnn_name='vgg16',
-          dataset_name='cifar100',
-          known_classes='78-86-87-93',
-          unknown_classes='22-27-29-39-40-44',
-          drift_pattern='temporal-gradual',
-          deepstream_model_name='deepstreamensemble', #deepstreamos, adadeepstream
-          reduction='blockcbir',    # jdsiverge, dsdivergelast, dscbir, blockcbir
-          adaptation='dseadapt',     # dsadapt
-          data_discrepancy='CD',
-             )
+    # # DeepStreamEnsemble
+    # exec.run(dnn_name='vgg16',
+    #       dataset_name='cifar100',
+    #       known_classes='78-86-87-93',
+    #       unknown_classes='22-27-29-39-40-44',
+    #       drift_pattern='temporal-gradual',
+    #       deepstream_model_name='deepstreamensemble',
+    #       reduction='blockcbir', 
+    #       adaptation='dseadapt',
+    #       data_discrepancy='CD',
+    #          )
