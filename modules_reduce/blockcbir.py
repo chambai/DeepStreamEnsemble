@@ -11,7 +11,7 @@ layerNames = []
 pca_components = 0
 ica_components = 0
 num_channel_chunks = 0
-use_final_hidden_layer = True # defaulted to true as it was included in teh original paper
+use_final_hidden_layer = True # defaulted to true as it was included in the original paper
 num_final_hidden_layer_chunks = 0 # returns all values from the final hidden layer
 pool_layer_threshold = 0.5 # threshold at which activation values from the pooling layer are stored (0.5 used in paper)
 use_pool_layer_threshold = True  # threshold used in paper, therefore defaulted to true here
@@ -20,7 +20,6 @@ block_map = {}
 # CBIR - Content Based Image Retrieval - descriptors generation for image retrieval by analyzing activations of deep neural network layers
 # https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9451541&casa_token=SjYhfTbe85cAAAAA:DEj6uWr0--chlnptQokS0JLtEYxiaeu_KjCRGYidZfZQFz4UNo1jJv0-VOAYxJLFcfDk61rFm-li&tag=1
 # github: https://github.com/pstaszewski/cbir202004
-# I have loaded the original code into my colab: https://colab.research.google.com/drive/1A0V20WtRe5Qxy4MqQsBThZi1sgpiAxQk
 
 # runs without using numba, but is slow when dealing with 1000 instances at a time. Options:
 # 1. Sort out numba (needs extra type information to run on GPU)
@@ -36,7 +35,7 @@ def extractSingleLayer(key, layer, reset=False, layerActivationReduction='cbir',
     num_final_hidden_layer_chunks = 32     # change this value depending on how big the final layer is for mobilenet.
     use_pool_layer_threshold = False
 
-    print('key: %s'%(key))
+    # print('key: %s'%(key))
     if reset:
         blockDict = get_block_map(model)
         layerNames = [layers for blocks in blockDict.values() for layers in blocks.keys()]
@@ -44,8 +43,8 @@ def extractSingleLayer(key, layer, reset=False, layerActivationReduction='cbir',
 
     # flatten dictionary to get listo of layers
     result = np.zeros(1)
-    print('layer_name: %s'%(key))
-    print('layer_names: %s' % (layerNames))
+    # print('layer_name: %s'%(key))
+    # print('layer_names: %s' % (layerNames))
     if key in layerNames:
         try:
             result = jit_calc(key, layer, blockDict)
@@ -57,8 +56,6 @@ def extractSingleLayer(key, layer, reset=False, layerActivationReduction='cbir',
     return result
 
 def is_final_layer(model, key):
-    print(key)
-    print(model.get_layer_names()[-2])
     is_last = model.get_layer_names()[-2] == key
     # use -2 as activations are never extracted from first and last layers
     return is_last
@@ -113,6 +110,7 @@ def get_block_map(model):
         block_map = get_block_map(model)
     return block_map
 
+@jit(nopython=False)
 def get_block_name(layer_name, block_map):
     block_name = ''
     for k, v in block_map.items():
@@ -178,7 +176,7 @@ def jit_calc(layer_name, layer, blockDict):
                 hasData = True
 
         isComplete.append(hasData)
-    print(isComplete)
+    # print(isComplete)
 
     if allTrue(isComplete):
         for n in range(0, list(list(blockDict.values())[0].values())[0].shape[0]):
@@ -202,7 +200,7 @@ def jit_calc(layer_name, layer, blockDict):
                 else:
                     res = slicedBlockLayers[0].reshape((slicedBlockLayers[0].shape[1]))
                     if num_final_hidden_layer_chunks > 0:
-                        res = average_chunk(res, num_final_hidden_layer_chunks)
+                        res = average_chunk_jit(res, num_final_hidden_layer_chunks)
                         res = np.array(res)
                     unflattened.append(res)
                     pass
@@ -240,7 +238,7 @@ def jit_calc(layer_name, layer, blockDict):
 def jit_collect_information(blockLayers):
     # Begin - Initialize memory for collecting informations
     # we only have one label for each image, so number_of_info_samples = 1
-    number_of_info_samples = 1
+    number_of_info_samples = 1 # todo change back to 1
 
     # select the convolutional layers that can have the importances calculated
     # only blocks that have feature map dimensions > number_of_info_samples can have the importances calculated
@@ -290,10 +288,21 @@ def jit_collect_information(blockLayers):
 
     if num_channel_chunks > 0:
         # split the channel values into chunks and average the channel values in each chunk
-        averages = average_chunk(flatVal, num_channel_chunks)
+        averages = average_chunk_jit(flatVal, num_channel_chunks)
         flatVal = np.reshape(averages, (1, averages.shape[0]))
 
     return flatVal
+
+@jit(nopython=False)
+def average_chunk_jit(array, num_chunks):
+    # splits array into chunks and takes the average of each chunk
+    split = np.array_split(array, num_chunks)
+    averages = []
+    for chunk in split:
+        averages.append(np.average(chunk))
+    averages = np.array(averages)
+    return averages
+
 
 def average_chunk(array, num_chunks):
     # splits array into chunks and takes the average of each chunk
@@ -303,6 +312,7 @@ def average_chunk(array, num_chunks):
         averages.append(np.average(chunk))
     averages = np.array(averages)
     return averages
+
 
 
 # ------------------------------
